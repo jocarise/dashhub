@@ -1,0 +1,19 @@
+@use '~bulma/bulma' as *;
+
+.navbar_container {
+  width: fit-content;
+  height: 100vh;
+}
+
+.vue_element {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coming_soon_element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

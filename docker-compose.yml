@@ -1,0 +1,13 @@
+services:
+  host:
+    build: ./host
+    ports:
+    - "3000:3000"
+  news-remote:
+    build: ./news-remote
+    ports:
+    - "3020:80"
+  weather-remote:
+    build: ./weather-remote
+    ports:
+    - "3010:80"

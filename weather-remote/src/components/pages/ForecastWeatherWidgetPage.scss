@@ -1,0 +1,46 @@
+.card_container {
+  height: 100%;
+  gap: 1rem;
+}
+
+.card_container_content {
+  height: 100%;
+}
+
+.card_tabs_gap {
+  gap: 1.25rem;
+}
+
+.card_tabs_scroll {
+  min-height: 192px;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+}
+
+div.box {
+  margin-bottom: 0 !important;
+}
+
+/* For Webkit-based browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust the width of the scrollbar */
+  height: 8px; /* Adjust the height of horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Set background color of the track */
+  padding: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5); /* Thumb color */
+  border-radius: 10px; /* Optional: make the thumb rounded */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.8); /* Hover effect */
+}
+
+// /* For Firefox */
+// scrollbar-width: thin;
+// scrollbar-color: rgba(0, 0, 0, 0.5) transparent; /* thumb and track color *
