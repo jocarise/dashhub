@@ -35,4 +35,4 @@ The dashboard serves as a central hub for displaying data from multiple external
 
 ### Setup Instructions
 
-pending
+WIP
